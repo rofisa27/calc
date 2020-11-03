@@ -2,7 +2,7 @@ from sys import exit
 while True:
     while True:
         try:
-            a = int(input("\nangka pertama: "))
+            a = int(input("\n"+"angka pertama: "))
             b = int(input("angka kedua: "))
             break
         except ValueError:
